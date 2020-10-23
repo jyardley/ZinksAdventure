@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2956F6C621FA13BB003F2108 /* GameSaveState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2956F6C521FA13BB003F2108 /* GameSaveState.swift */; };
+		297ECBF921CA9F3C00F21978 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297ECBF821CA9F3C00F21978 /* AppDelegate.swift */; };
+		297ECBFB21CA9F3C00F21978 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297ECBFA21CA9F3C00F21978 /* ViewController.swift */; };
+		297ECBFE21CA9F3C00F21978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 297ECBFC21CA9F3C00F21978 /* Main.storyboard */; };
+		297ECC0021CA9F4000F21978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 297ECBFF21CA9F4000F21978 /* Assets.xcassets */; };
+		297ECC0321CA9F4000F21978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 297ECC0121CA9F4000F21978 /* LaunchScreen.storyboard */; };
+		297ECC0B21CAA0C900F21978 /* NumberCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297ECC0A21CAA0C900F21978 /* NumberCheck.swift */; };
+		297ECC0D21CAF78600F21978 /* Ting.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 297ECC0C21CAF78600F21978 /* Ting.mp3 */; };
+		297ECC1721E3EB0800F21978 /* tiles2.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 297ECC1621E3EB0800F21978 /* tiles2.bundle */; };
+		297ECC1921E50C6A00F21978 /* sms-alert-1-daniel_simon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 297ECC1821E50C6A00F21978 /* sms-alert-1-daniel_simon.mp3 */; };
+		297ECC1B21E50CD900F21978 /* sms-alert-2-daniel_simon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 297ECC1A21E50CD800F21978 /* sms-alert-2-daniel_simon.mp3 */; };
+		297ECC1E21E50CF100F21978 /* sms-alert-5-daniel_simon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 297ECC1C21E50CF000F21978 /* sms-alert-5-daniel_simon.mp3 */; };
+		297ECC1F21E50CF100F21978 /* sms-alert-3-daniel_simon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 297ECC1D21E50CF000F21978 /* sms-alert-3-daniel_simon.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2956F6C521FA13BB003F2108 /* GameSaveState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSaveState.swift; sourceTree = "<group>"; };
+		297ECBF521CA9F3C00F21978 /* ZinksAdventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZinksAdventure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		297ECBF821CA9F3C00F21978 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		297ECBFA21CA9F3C00F21978 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		297ECBFD21CA9F3C00F21978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		297ECBFF21CA9F4000F21978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		297ECC0221CA9F4000F21978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		297ECC0421CA9F4000F21978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		297ECC0A21CAA0C900F21978 /* NumberCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberCheck.swift; sourceTree = "<group>"; };
+		297ECC0C21CAF78600F21978 /* Ting.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ting.mp3; sourceTree = "<group>"; };
+		297ECC1621E3EB0800F21978 /* tiles2.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = tiles2.bundle; path = ../../ZinksAdventureImages/tiles2.bundle; sourceTree = "<group>"; };
+		297ECC1821E50C6A00F21978 /* sms-alert-1-daniel_simon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sms-alert-1-daniel_simon.mp3"; sourceTree = "<group>"; };
+		297ECC1A21E50CD800F21978 /* sms-alert-2-daniel_simon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sms-alert-2-daniel_simon.mp3"; sourceTree = "<group>"; };
+		297ECC1C21E50CF000F21978 /* sms-alert-5-daniel_simon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sms-alert-5-daniel_simon.mp3"; sourceTree = "<group>"; };
+		297ECC1D21E50CF000F21978 /* sms-alert-3-daniel_simon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sms-alert-3-daniel_simon.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		297ECBF221CA9F3C00F21978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		297ECBEC21CA9F3C00F21978 = {
+			isa = PBXGroup;
+			children = (
+				297ECBF721CA9F3C00F21978 /* ZinksAdventure */,
+				297ECBF621CA9F3C00F21978 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		297ECBF621CA9F3C00F21978 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				297ECBF521CA9F3C00F21978 /* ZinksAdventure.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		297ECBF721CA9F3C00F21978 /* ZinksAdventure */ = {
+			isa = PBXGroup;
+			children = (
+				297ECC1621E3EB0800F21978 /* tiles2.bundle */,
+				297ECC0C21CAF78600F21978 /* Ting.mp3 */,
+				297ECC1821E50C6A00F21978 /* sms-alert-1-daniel_simon.mp3 */,
+				297ECC1A21E50CD800F21978 /* sms-alert-2-daniel_simon.mp3 */,
+				297ECC1D21E50CF000F21978 /* sms-alert-3-daniel_simon.mp3 */,
+				297ECC1C21E50CF000F21978 /* sms-alert-5-daniel_simon.mp3 */,
+				297ECBF821CA9F3C00F21978 /* AppDelegate.swift */,
+				297ECBFA21CA9F3C00F21978 /* ViewController.swift */,
+				2956F6C521FA13BB003F2108 /* GameSaveState.swift */,
+				297ECC0A21CAA0C900F21978 /* NumberCheck.swift */,
+				297ECBFC21CA9F3C00F21978 /* Main.storyboard */,
+				297ECBFF21CA9F4000F21978 /* Assets.xcassets */,
+				297ECC0121CA9F4000F21978 /* LaunchScreen.storyboard */,
+				297ECC0421CA9F4000F21978 /* Info.plist */,
+			);
+			path = ZinksAdventure;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		297ECBF421CA9F3C00F21978 /* ZinksAdventure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 297ECC0721CA9F4000F21978 /* Build configuration list for PBXNativeTarget "ZinksAdventure" */;
+			buildPhases = (
+				297ECBF121CA9F3C00F21978 /* Sources */,
+				297ECBF221CA9F3C00F21978 /* Frameworks */,
+				297ECBF321CA9F3C00F21978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZinksAdventure;
+			productName = ZinksAdventure;
+			productReference = 297ECBF521CA9F3C00F21978 /* ZinksAdventure.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		297ECBED21CA9F3C00F21978 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Jeff Yardley";
+				TargetAttributes = {
+					297ECBF421CA9F3C00F21978 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 297ECBF021CA9F3C00F21978 /* Build configuration list for PBXProject "ZinksAdventure" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 297ECBEC21CA9F3C00F21978;
+			productRefGroup = 297ECBF621CA9F3C00F21978 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				297ECBF421CA9F3C00F21978 /* ZinksAdventure */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		297ECBF321CA9F3C00F21978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				297ECC1B21E50CD900F21978 /* sms-alert-2-daniel_simon.mp3 in Resources */,
+				297ECC0D21CAF78600F21978 /* Ting.mp3 in Resources */,
+				297ECC0321CA9F4000F21978 /* LaunchScreen.storyboard in Resources */,
+				297ECC1E21E50CF100F21978 /* sms-alert-5-daniel_simon.mp3 in Resources */,
+				297ECC1721E3EB0800F21978 /* tiles2.bundle in Resources */,
+				297ECC1F21E50CF100F21978 /* sms-alert-3-daniel_simon.mp3 in Resources */,
+				297ECC0021CA9F4000F21978 /* Assets.xcassets in Resources */,
+				297ECBFE21CA9F3C00F21978 /* Main.storyboard in Resources */,
+				297ECC1921E50C6A00F21978 /* sms-alert-1-daniel_simon.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		297ECBF121CA9F3C00F21978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2956F6C621FA13BB003F2108 /* GameSaveState.swift in Sources */,
+				297ECC0B21CAA0C900F21978 /* NumberCheck.swift in Sources */,
+				297ECBFB21CA9F3C00F21978 /* ViewController.swift in Sources */,
+				297ECBF921CA9F3C00F21978 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		297ECBFC21CA9F3C00F21978 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				297ECBFD21CA9F3C00F21978 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		297ECC0121CA9F4000F21978 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				297ECC0221CA9F4000F21978 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		297ECC0521CA9F4000F21978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		297ECC0621CA9F4000F21978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		297ECC0821CA9F4000F21978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4F368JA4A6;
+				INFOPLIST_FILE = ZinksAdventure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jeff.yardley1975.ZinksAdventure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		297ECC0921CA9F4000F21978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4F368JA4A6;
+				INFOPLIST_FILE = ZinksAdventure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jeff.yardley1975.ZinksAdventure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		297ECBF021CA9F3C00F21978 /* Build configuration list for PBXProject "ZinksAdventure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				297ECC0521CA9F4000F21978 /* Debug */,
+				297ECC0621CA9F4000F21978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		297ECC0721CA9F4000F21978 /* Build configuration list for PBXNativeTarget "ZinksAdventure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				297ECC0821CA9F4000F21978 /* Debug */,
+				297ECC0921CA9F4000F21978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 297ECBED21CA9F3C00F21978 /* Project object */;
+}
